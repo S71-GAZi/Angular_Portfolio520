@@ -68,18 +68,11 @@
                                                 <i data-feather="user"></i>
                                             </div>
                                             <h2 class="title">
-                                                Hi, I’m <span>{{name}}</span>
+                                                Hi, I’m <span>{{person.firstName}} {{person.lastName}}</span>
                                             </h2>
-                                            <p class="disc">{{shortDesctiption}}</p>
-                                        </div>
-                                        <div class="user-info-footer">
-                                            <div class="info">
-                                                <i data-feather="file"></i>
-                                                <span>{{designation}}</span>
-                                            </div>
-                                            <div class="info">
+                                                 <div class="info">
                                                 <i data-feather="mail"></i>
-                                                <span>{{email}}</span>
+                                                <span>{{person.email}}</span>
                                             </div>
                                             <div class="info">
                                                 <i data-feather="map-pin"></i>
@@ -107,6 +100,7 @@
                         <div class="background-image-area">
                             <div class="thumbnail-image">
                                 <img src="assets/images/banner-02.png" alt="Personal Portfolio">
+                                <!-- <img src="assets/images/banner-02v2.png" alt="Personal Portfolio"> -->
                             </div>
                         </div>
                     </div>
