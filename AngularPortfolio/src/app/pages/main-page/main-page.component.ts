@@ -14,4 +14,10 @@ name:string='SORIFULLAH PAVEL';
 shortDesctiption:string = 'Full Stack Software Engineer working for PerkyRabbit Corporation Ltd. Dhaka, Bangladesh.';
 designation :string ="Software Engineer";
 email : string ='sorifullahpavelgazi@gmail.com';
+ jobStartDate :any = this.person.professionStartDate;
+ currentDate :any = new Date();
+ duration :any = (this.currentDate.valueOf() - this.jobStartDate.valueOf());
+
+
+ 
 }
